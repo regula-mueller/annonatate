@@ -1,0 +1,34 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Cow",
+            "purpose": "commenting",
+            "creator": {
+                "id": "regula-mueller",
+                "name": "regula-mueller"
+            },
+            "created": "2025-03-21T13:26:13.913Z",
+            "modified": "2025-03-21T13:26:14.248Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=106.62088775634766,88.26922607421875,64.45055389404297,46.23626708984375"
+        }
+    },
+    "id": "d954ee95-c8c2-4428-a706-aa85163ab6be.json",
+    "motivation": "commenting"
+}
