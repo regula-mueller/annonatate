@@ -1,0 +1,34 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Child",
+            "purpose": "classifying",
+            "creator": {
+                "id": "regula-mueller",
+                "name": "regula-mueller"
+            },
+            "created": "2025-03-21T13:20:43.754Z",
+            "modified": "2025-03-21T13:20:54.463Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=136.04396057128906,146.6483612060547,55.109893798828125,59.31318664550781"
+        }
+    },
+    "id": "523148d5-3e7f-42f8-b7eb-921ec49efc56.json",
+    "motivation": "commenting"
+}
